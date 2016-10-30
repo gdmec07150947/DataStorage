@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.os.myapplication4.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast直接输出文字"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="b1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOAST输出view内容"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="b2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOAST输入自定义view"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="b3"/>
+</RelativeLayout>
